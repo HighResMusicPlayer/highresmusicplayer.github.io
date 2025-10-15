@@ -15,13 +15,13 @@ hero:
 
 features:
   - title: DSD
-    details: Digital Stream Digital (DSD) 64/128/256/512
+    details: Digital Stream Digital 64/128/256/512
   - title: DoP
-    details: Digital Stream Digital (DSD) over Pulse Code Modulation (PCM) (DoP) 64/128/256
+    details: Digital Stream Digital over Pulse Code Modulation 64/128/256
   - title: FLAC
-    details: 16bit and 24bit support
+    details: 44.1kHz to 384kHz (16bit / 24bit)
   - title: WAV
-    details: 16bit and 24bit support
+    details: 44.1kHz to 384kHz (16bit / 24bit)
   - title: MP3
     details: Best effort (lossy)
 ---
