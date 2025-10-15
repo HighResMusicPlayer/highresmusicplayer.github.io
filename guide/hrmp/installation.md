@@ -21,7 +21,7 @@ These can be obtained using:
 $ dnf install git gcc clang clang-analyzer cmake make python3-docutils libasan libasan-static alsa-lib alsa-lib-devel libsndfile libsndfile-devel
 ```
 
-## Install pgexporter
+## Install hrmp
 
 Installation can be done by [building it from source](#building-from-source) and installing it.
 

@@ -18,6 +18,5 @@ This is a feature release.
 
 ## Download
 
-- [Source Code](https://github.com/HighResMusicPlayer/hrmp/releases/download/0.5.0/pgexporter-0.5.0.tar.gz)
+- [Source Code](https://github.com/HighResMusicPlayer/hrmp/releases/download/0.5.0/hrmp-0.5.0.tar.gz)
 - [Guide](https://github.com/HighResMusicPlayer/hrmp/releases/download/0.5.0/hrmp-en.pdf)
-- [RPM](https://yum.postgresql.org/) for Fedora 42, Rocky Linux 9.x / 10.x
