@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "hrmp"
-  tagline: High resolution music player
+  tagline: High resolution music player for Linux
   actions:
     - theme: brand
       text: hrmp
