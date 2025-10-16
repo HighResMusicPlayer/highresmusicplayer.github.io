@@ -6,7 +6,7 @@ outline: deep
 
 ## hrmp
 
-Prometheus exporter for PostgreSQL.
+High resolution music player for Linux.
 
 |Version|Date (`YYYY` / `MM` / `DD`) |
 |:---|:---|
