@@ -63,7 +63,7 @@ $ sudo make install # Optional but recommended step for testing
 Make sure that hrmp is installed and in your `PATH` by using `hrmp -?` and you should see
 
 ```
-hrmp 0.5.0
+hrmp 0.5.1
   High resolution music player
 
 Usage:
