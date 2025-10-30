@@ -12,13 +12,15 @@ outline: deep
 * [make](https://www.gnu.org/software/make/)
 * [ALSA](https://www.alsa-project.org/wiki/Main_Page)
 * [libsndfile](https://libsndfile.github.io/libsndfile/)
+* [opus](https://github.com/xiph/opus)
+* [faad2](https://github.com/knik0/faad2)
 * [rst2man](https://docutils.sourceforge.io/)
 * [pandoc](https://pandoc.org/)
 * [texlive](https://www.tug.org/texlive/)
 
 These can be obtained using:
 ```sh
-$ dnf install git gcc clang clang-analyzer cmake make python3-docutils libasan libasan-static alsa-lib alsa-lib-devel libsndfile libsndfile-devel
+$ dnf install git gcc clang clang-analyzer cmake make python3-docutils libasan libasan-static alsa-lib alsa-lib-devel libsndfile libsndfile-devel opus opus-devel faad2 faad2-devel
 ```
 
 ## Install hrmp
@@ -63,7 +65,7 @@ $ sudo make install # Optional but recommended step for testing
 Make sure that hrmp is installed and in your `PATH` by using `hrmp -?` and you should see
 
 ```
-hrmp 0.5.2
+hrmp 0.6.0
   High resolution music player
 
 Usage:
