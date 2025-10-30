@@ -22,6 +22,6 @@ features:
     details: 44.1kHz to 384kHz (16bit / 24bit)
   - title: WAV
     details: 44.1kHz to 384kHz (16bit / 24bit)
-  - title: MP3
-    details: Best effort (lossy)
+  - title: MP3 / MKV / WEBM
+    details: Best effort
 ---
