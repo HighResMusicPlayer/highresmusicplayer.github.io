@@ -32,6 +32,8 @@ hrmp makes use of:
 
 * [ALSA](https://www.alsa-project.org/wiki/Main_Page)
 * [libsndfile](https://libsndfile.github.io/libsndfile/)
+* [opus](https://github.com/xiph/opus)
+* [faad2](https://github.com/knik0/faad2)
 
 ## Further information
 
