@@ -22,6 +22,7 @@ The primary section has the name `hrmp`, and it contains configurations enlisted
 | Property | Default | Unit | Required | Description |
 |:---|:---|:---|:---|:---|
 | device | | String | No | The default device name |
+| volume   | -1 | Int | No | The volume in percent. -1 means use current volume |
 | log_type | console | String | No | The logging type (console, file, syslog) |
 | log_level | info | String | No | The logging level, any of the (case insensitive) strings `FATAL`, `ERROR`, `WARN`, `INFO` and `DEBUG` (that can be more specific as `DEBUG1` thru `DEBUG5`). Debug level greater than 5 will be set to `DEBUG5`. Not recognized values will make the log_level be `INFO` |
 | log_path | hrmp.log | String | No | The log file location. Can be a strftime(3) compatible string. |
@@ -37,3 +38,4 @@ Each device section can be given any **unique** name and it may contain configur
 |---|---|---|---|---|
 | device | | String | Yes | The device address |
 | description | | String | No | The description of the device |
+| volume   | -1 | Int | No | The volume in percent. -1 means use current volume |
