@@ -10,6 +10,7 @@ High resolution music player for Linux.
 
 |Version|Date (`YYYY` / `MM` / `DD`) |
 |:---|:---|
+|[hrmp 0.9.0](./releases/hrmp_0_9_0.md)|`2025` / `11` / `24`|
 |[hrmp 0.8.0](./releases/hrmp_0_8_0.md)|`2025` / `11` / `22`|
 |[hrmp 0.7.1](./releases/hrmp_0_7_1.md)|`2025` / `11` / `21`|
 |[hrmp 0.7.0](./releases/hrmp_0_7_0.md)|`2025` / `10` / `31`|
