@@ -8,7 +8,7 @@ This is a feature release.
 
 ## Features
 
-* Relicense to GNU Public License version 3
+* Relicense to GNU General Public License version 3
 
 
 ## Changelog
