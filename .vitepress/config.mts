@@ -128,7 +128,7 @@ export default defineConfig({
          },
          {
             text: "LICENSE",
-            link: "https://opensource.org/licenses/BSD-3-Clause",
+            link: "https://www.gnu.org/licenses/gpl-3.0.en.html",
          },
       ],
 

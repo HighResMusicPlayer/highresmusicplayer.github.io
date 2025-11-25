@@ -6,7 +6,7 @@ outline: deep
 
 hrmp is a high resolution music player for ALSA based Linux systems.
 
-hrmp is licensed under the [3-Clause BSD license](https://opensource.org/licenses/BSD-3-Clause).
+hrmp is licensed under the [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 ## Why
 
