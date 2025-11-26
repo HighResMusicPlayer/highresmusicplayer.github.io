@@ -6,10 +6,11 @@ outline: deep
 
 ## Latest
 
-- [`2025/11/24`] `hrmp` v0.9.0 released. [The release notes](./releases/hrmp_0_9_0.md).
+- [`2025/11/26`] `hrmp` v0.9.1 released. [The release notes](./releases/hrmp_0_9_1.md).
 
 ## Old
 
+- [`2025/11/24`] `hrmp` v0.9.0 released. [The release notes](./releases/hrmp_0_9_0.md).
 - [`2025/11/22`] `hrmp` v0.8.0 released. [The release notes](./releases/hrmp_0_8_0.md).
 - [`2025/11/21`] `hrmp` v0.7.1 released. [The release notes](./releases/hrmp_0_7_1.md).
 - [`2025/10/31`] `hrmp` v0.7.0 released. [The release notes](./releases/hrmp_0_7_0.md).
