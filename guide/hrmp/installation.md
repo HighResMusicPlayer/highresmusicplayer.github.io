@@ -65,7 +65,7 @@ $ sudo make install # Optional but recommended step for testing
 Make sure that hrmp is installed and in your `PATH` by using `hrmp -?` and you should see
 
 ```
-hrmp 0.9.1
+hrmp 0.10.0
   High resolution music player
 
 Usage:
@@ -77,6 +77,7 @@ Options:
   -D, --device               Set the device name
   -R, --recursive            Add files recursive of the directory
   -I, --sample-configuration Generate a sample configuration
+  -m, --metadatda            Display metadata about the file
   -s, --status               Status of the devices
       --dop                  Use DSD over PCM
   -q, --quiet                Quiet the player
