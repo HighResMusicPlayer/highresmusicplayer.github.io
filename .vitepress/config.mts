@@ -8,7 +8,7 @@ export default defineConfig({
       // https://vitepress.dev/reference/default-theme-config
       nav: [
          { text: "Home", link: "/" },
-         { text: "About", link: "/about.md" },
+         { text: "About", link: "/hrmp.md" },
          { text: "Docs", link: "/docs/guides.md" },
          { text: "News", link: "/news" },
          { text: "Releases", link: "/releases" },
@@ -24,7 +24,7 @@ export default defineConfig({
       sidebar: [
          {
             text: "About",
-            link: "/about.md",
+            link: "/hrmp.md",
             items: [
                {
                   text: "hrmp",
