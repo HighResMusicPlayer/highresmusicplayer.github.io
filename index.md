@@ -29,5 +29,5 @@ features:
   - title: Customize console output
     details: Including color support
   - title: GTK-based UI
-    details: For people prefers a UI
+    details: For people who prefer a UI
 ---
