@@ -79,6 +79,10 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                      {
+                        text: "hrmp 0.11.0",
+                        link: "/releases/hrmp_0_11_0",
+                     },
+                     {
                         text: "hrmp 0.10.0",
                         link: "/releases/hrmp_0_10_0",
                      },
