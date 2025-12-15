@@ -4,7 +4,7 @@
 
 Usage:
 ```
-hrmp 0.10.0
+hrmp 0.11.1
   High resolution music player
 
 Usage:
