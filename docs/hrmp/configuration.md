@@ -22,7 +22,7 @@ The primary section has the name `hrmp`, and it contains configurations enlisted
 | Property | Default | Unit | Required | Description |
 |:---|:---|:---|:---|:---|
 | device | | String | No | The default device name |
-| output | `[%n/%N] %d: %f [%i] (%t/%T) (%p)`| String | No | Defines the console output. Valid expansions are: `%n` (current track number), `%N` (total number of tracks), `%d` (device name), `%f` (file name), `%F` (full path of file), `%i` (file information), `%t` (current time), `%T` (total time), `%p` (percentage)|
+| output | `[%n/%N] %d: %f [%i] (%t/%T) (%p)`| String | No | Defines the console output. Valid expansions are: `%n` (current track number), `%N` (total number of tracks), `%d` (device name), `%f` (file name), `%F` (full path of file), `%i` (file information), `%t` (current time), `%T` (total time), `%p` (percentage), `%b` (current ringbuffer size), `%B` (maximum ringbuffer size) |
 | volume   | -1 | Int | No | The volume in percent. -1 means use current volume |
 | log_type | console | String | No | The logging type (console, file, syslog) |
 | log_level | info | String | No | The logging level, any of the (case insensitive) strings `FATAL`, `ERROR`, `WARN`, `INFO` and `DEBUG` (that can be more specific as `DEBUG1` thru `DEBUG5`). Debug level greater than 5 will be set to `DEBUG5`. Not recognized values will make the log_level be `INFO` |
@@ -62,6 +62,8 @@ The expansions supported are
 | `%t`      | Current time |
 | `%T`      | Total time |
 | `%p`      | Percentage |
+| `%b`      | Current ringbuffer size |
+| `%B`      | Maximum ringbuffer size |
 
 The console also supports color using the ANSI color codes
 

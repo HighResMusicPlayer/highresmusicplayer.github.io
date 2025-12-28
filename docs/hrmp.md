@@ -4,7 +4,7 @@
 
 Usage:
 ```
-hrmp 0.11.1
+hrmp 0.12.0
   High resolution music player
 
 Usage:
@@ -16,6 +16,7 @@ Options:
   -D, --device               Set the device name
   -p, --playlist PLAYLIST    Load a playlist (.hrmp)
   -R, --recursive            Add files recursive of the directory
+  -M, --mode MODE            Playback mode: once, repeat, shuffle
   -I, --sample-configuration Generate a sample configuration
   -m, --metadatda            Display metadata about the file
   -s, --status               Status of the devices
