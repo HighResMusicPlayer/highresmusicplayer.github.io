@@ -15,13 +15,14 @@ outline: deep
 * [opus](https://github.com/xiph/opus)
 * [faad2](https://github.com/knik0/faad2)
 * [GTK](https://www.gtk.org/)
+* [ncurses](https://invisible-island.net/ncurses/)
 * [rst2man](https://docutils.sourceforge.io/)
 * [pandoc](https://pandoc.org/)
 * [texlive](https://www.tug.org/texlive/)
 
 These can be obtained using:
 ```sh
-$ dnf install git gcc clang clang-analyzer clang-tools-extra cmake make python3-docutils libasan libasan-static alsa-lib alsa-lib-devel libsndfile libsndfile-devel opus opus-devel faad2 faad2-devel gtk3 gtk3-devel
+$ dnf install git gcc clang clang-analyzer clang-tools-extra cmake make python3-docutils libasan libasan-static alsa-lib alsa-lib-devel libsndfile libsndfile-devel opus opus-devel faad2 faad2-devel gtk3 gtk3-devel ncurses-libs ncurses-devel
 ```
 
 ## Install hrmp
@@ -66,7 +67,7 @@ $ sudo make install # Optional but recommended step for testing
 Make sure that hrmp is installed and in your `PATH` by using `hrmp -?` and you should see
 
 ```
-hrmp 0.12.0
+hrmp 0.13.0
   High resolution music player
 
 Usage:
@@ -80,6 +81,7 @@ Options:
   -R, --recursive            Add files recursive of the directory
   -M, --mode MODE            Playback mode: once, repeat, shuffle
   -I, --sample-configuration Generate a sample configuration
+  -i, --interactive          Text UI mode
   -m, --metadatda            Display metadata about the file
   -s, --status               Status of the devices
       --dop                  Use DSD over PCM

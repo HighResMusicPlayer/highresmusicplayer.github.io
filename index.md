@@ -28,6 +28,6 @@ features:
     details: Load/save playlists for later replay
   - title: Customize console output
     details: Including color support
-  - title: GTK-based UI
-    details: For people who prefer a UI
+  - title: UIs
+    details: For people who prefer a UI (GTK or ncurses)
 ---

@@ -4,7 +4,7 @@
 
 Usage:
 ```
-hrmp 0.12.0
+hrmp 0.13.0
   High resolution music player
 
 Usage:
@@ -18,6 +18,7 @@ Options:
   -R, --recursive            Add files recursive of the directory
   -M, --mode MODE            Playback mode: once, repeat, shuffle
   -I, --sample-configuration Generate a sample configuration
+  -i, --interactive          Text UI mode
   -m, --metadatda            Display metadata about the file
   -s, --status               Status of the devices
       --dop                  Use DSD over PCM
