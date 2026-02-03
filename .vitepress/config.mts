@@ -83,6 +83,10 @@ export default defineConfig({
                         link: "/releases/hrmp_0_13_0",
                      },
                      {
+                        text: "hrmp 0.14.0",
+                        link: "/releases/hrmp_0_14_0",
+                     },
+                     {
                         text: "hrmp 0.12.0",
                         link: "/releases/hrmp_0_12_0",
                      },
