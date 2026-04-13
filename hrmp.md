@@ -20,7 +20,10 @@ The goal of the project is to provide the Open Source community with an advanced
 * WAV (44.1kHz/16bit, 48kHz/16bit, 88.2kHz/16bit, 96kHz/16bit, 176.4kHz/16bit, 192kHz/16bit, 352.8kHz/16bit, 384kHz/16bit, 44.1kHz/24bit, 48kHz/24bit, 88.2kHz/24bit, 96kHz/24bit, 176.4kHz/24bit, 192kHz/24bit, 352.8kHz/24bit, 384kHz/24bit)
 * Playlist support
 * Customize console output with color support
+* Extract your SACD ISOs into .dsf files
+* Convert .dsf files to 24-bit .flac at the matching PCM rate
 * GTK-based UI
+* ncurses-based UI
 * By-pass PulseAudio for native bit-stream
 
 ### Best effort
@@ -38,6 +41,7 @@ hrmp makes use of:
 * [opus](https://github.com/xiph/opus)
 * [faad2](https://github.com/knik0/faad2)
 * [GTK](https://www.gtk.org/)
+* [ncurses](https://invisible-island.net/ncurses/)
 
 ## Further information
 
