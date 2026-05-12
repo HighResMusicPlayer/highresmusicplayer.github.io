@@ -26,8 +26,12 @@ features:
     details: Best effort
   - title: Playlist support
     details: Load/save playlists for later replay
+  - title: Extract ISOs
+    details: Get .dsf or .flac files
+  - title: Convert
+    details: .dsf to .flac support
   - title: Customize console output
     details: Including color support
   - title: UIs
-    details: For people who prefer a UI (GTK or ncurses)
+    details: For people who prefer a UI (GTK or ncurses) with search
 ---
